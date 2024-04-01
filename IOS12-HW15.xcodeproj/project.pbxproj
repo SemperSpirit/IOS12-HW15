@@ -12,6 +12,8 @@
 		729BFB242BBB09B0004D5A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729BFB232BBB09B0004D5A17 /* Assets.xcassets */; };
 		729BFB272BBB09B0004D5A17 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 729BFB262BBB09B0004D5A17 /* Base */; };
 		729BFB3A2BBB0D43004D5A17 /* ControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729BFB392BBB0D43004D5A17 /* ControllerViewController.swift */; };
+		729BFB3C2BBB0FC8004D5A17 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729BFB3B2BBB0FC8004D5A17 /* Model.swift */; };
+		729BFB3E2BBB0FEA004D5A17 /* ModelWithData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729BFB3D2BBB0FEA004D5A17 /* ModelWithData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		729BFB262BBB09B0004D5A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		729BFB282BBB09B0004D5A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		729BFB392BBB0D43004D5A17 /* ControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ControllerViewController.swift; path = ../../../../../HomeWork13/HomeWork13/Sources/Scenes/Controler/ControllerViewController.swift; sourceTree = "<group>"; };
+		729BFB3B2BBB0FC8004D5A17 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		729BFB3D2BBB0FEA004D5A17 /* ModelWithData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWithData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 		729BFB382BBB0CD5004D5A17 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				729BFB3B2BBB0FC8004D5A17 /* Model.swift */,
+				729BFB3D2BBB0FEA004D5A17 /* ModelWithData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -209,6 +215,8 @@
 				729BFB1B2BBB09AE004D5A17 /* AppDelegate.swift in Sources */,
 				729BFB3A2BBB0D43004D5A17 /* ControllerViewController.swift in Sources */,
 				729BFB1D2BBB09AE004D5A17 /* SceneDelegate.swift in Sources */,
+				729BFB3E2BBB0FEA004D5A17 /* ModelWithData.swift in Sources */,
+				729BFB3C2BBB0FC8004D5A17 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
