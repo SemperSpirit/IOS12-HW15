@@ -18,5 +18,4 @@ final class Model {
         self.image = image
         self.color = color
     }
-    
 }
